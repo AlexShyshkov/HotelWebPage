@@ -9,10 +9,11 @@ window.addEventListener('DOMContentLoaded', function(){
 	let personsSum = 0;
 	let daysSum = 0;
 	let total = 0;
+	let standart = 30;
 
 	guestsInHotel.addEventListener('change', function(){
 		personsSum = +this.value;
-		total = (daysSum + personsSum) * 1500;
+		total = (daysSum * personsSum) * standart;
 
 		if(daysInHotel.value === '' || guestsInHotel.value === ''){
 			totalSum.innerHTML = 0;
@@ -23,7 +24,7 @@ window.addEventListener('DOMContentLoaded', function(){
 
 	daysInHotel.addEventListener('change', function(){
 		daysSum = +this.value;
-		total = (daysSum + personsSum) * 1500;
+		total = (daysSum * personsSum) * standart;
 
 		if(guestsInHotel.value === '' || daysInHotel.value === ''){
 			totalSum.innerHTML = 0;
@@ -36,7 +37,7 @@ window.addEventListener('DOMContentLoaded', function(){
 		if(daysInHotel.value === '' || guestsInHotel.value === ''){
 			totalSum.innerHTML = 0;
 		} else{
-			let a = total;
+			let a = total / standart;
 			totalSum.innerHTML = a * this.options[this.selectedIndex].value;
 		}
 	});
