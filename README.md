@@ -33,13 +33,13 @@ Built with
 ----------------------------------------
 #### Interface
 Interface contains:
-- header with four links on main blocks on the page - "About us", "Gallery", "Price", "Contacts";
+- header with four links to the main blocks on the page - "About us", "Gallery", "Price", "Contacts";
 
 ![alt header](https://github.com/AlexShyshkov/HotelWebPage/blob/master/source/img/project-screenshots/header.png)
 
 - block with the greeting and short URL of the page;
 
-![alt greeting]()
+![alt greeting](https://github.com/AlexShyshkov/HotelWebPage/blob/master/source/img/project-screenshots/greeting.png)
 
 - block with tabs, what describes main information about services and activities in the hotel;
 
@@ -51,7 +51,7 @@ Interface contains:
 
 - hotel cost calculator;
 
-![alt calculator]()
+![alt calculator](https://github.com/AlexShyshkov/HotelWebPage/blob/master/source/img/project-screenshots/calculatop.png)
 
 - contact form;
 
@@ -65,4 +65,8 @@ Interface contains:
 
 ![alt scroll-up](https://github.com/AlexShyshkov/HotelWebPage/blob/master/source/img/project-screenshots/scroll-unhovered.png)
 
+All elements intended for user interaction have hover effects.
+
 #### User interaction
+Header contains four sections - "About us", "Gallery", "Price", "Contacts". Each section contains link on the same name block of page's content. If a user clicks on one of them, will happen scroll down to the content, what was selected in header. For example, after click on section "Contacts", page will scroll down to the contact form.
+The process of the scrolling down to the content, provides script "scroll-to-block.js". Each oh four header's section contains EventListener, what reacts on user's event "click". After click, the `element.scrollIntoView()` method scrolls the element's parent container such thst the element on which `scrollIntoView()` is called is visible to the user. `scrollIntoView()` has two properties: `behaviour: "smooth"` - defines the transition animation, `block: "center"` - defines vertical aligment.
