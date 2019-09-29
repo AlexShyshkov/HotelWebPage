@@ -35,8 +35,34 @@ Built with
 Interface contains:
 - header with four links on main blocks on the page - "About us", "Gallery", "Price", "Contacts";
 
-[!alt header](https://github.com/AlexShyshkov/HotelWebPage/blob/master/source/img/project-screenshots/links.png)
+![alt header](https://github.com/AlexShyshkov/HotelWebPage/blob/master/source/img/project-screenshots/header.png)
 
+- block with the greeting and short URL of the page;
 
+![alt greeting]()
+
+- block with tabs, what describes main information about services and activities in the hotel;
+
+![alt tabs](https://github.com/AlexShyshkov/HotelWebPage/blob/master/source/img/project-screenshots/tab-1.png)
+
+- slider with the photos of the hotel's landscapes;
+
+![alt slider](https://github.com/AlexShyshkov/HotelWebPage/blob/master/source/img/project-screenshots/gallery.png)
+
+- hotel cost calculator;
+
+![alt calculator]()
+
+- contact form;
+
+![alt contact](https://github.com/AlexShyshkov/HotelWebPage/blob/master/source/img/project-screenshots/contact-form.png)
+
+- footer with logo of the four popular social networks;
+
+![alt footer](https://github.com/AlexShyshkov/HotelWebPage/blob/master/source/img/project-screenshots/footer.png)
+
+- scroll up button, what appears when user scrolls down the page;
+
+![alt scroll-up](https://github.com/AlexShyshkov/HotelWebPage/blob/master/source/img/project-screenshots/scroll-unhovered.png)
 
 #### User interaction
