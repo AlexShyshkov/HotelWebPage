@@ -31,3 +31,12 @@ Built with
 
 ### Functionality
 ----------------------------------------
+#### Interface
+Interface contains:
+- header with four links on main blocks on the page - "About us", "Gallery", "Price", "Contacts";
+
+[!alt header](https://github.com/AlexShyshkov/HotelWebPage/blob/master/source/img/project-screenshots/links.png)
+
+
+
+#### User interaction
