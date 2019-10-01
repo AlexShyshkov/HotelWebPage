@@ -122,7 +122,6 @@
 	height: 400px;
 	padding-top: 50px;
 	transition: 0.3s;
-	/*display: flex;*/
 }
 .description{
 	width: 50%;
@@ -147,6 +146,7 @@
 	color: #fff;
 	font-weight: 300;
 	padding-right: 20px;
+	text-align: justify;
 }
 .description-btn{
 	width: 180px;
