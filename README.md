@@ -83,7 +83,7 @@ Each tab has title, text with short description of the selected service, theme p
 Block with photos of hotel landscapes.
 Consists of title, photos, two side navigation arrows, four navigation dots.
 Images are changed when a user clicks on one of the side navigation arrows or on one of the navigation dots. After the next image appears, the navigation dot, which match with number of selected image, changes color style.
-![alt change image]()
+![alt change image](https://github.com/AlexShyshkov/HotelWebPage/blob/master/source/img/project-screenshots/slider-hover.png)
 
 ##### Calculator
 Hotel cost calculator consists of the title, two `<input type="number">` elements for entering the amoount of guests and days, `<select>` element with type of rooms as options, block for total sum.
